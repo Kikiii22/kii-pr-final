@@ -1,0 +1,110 @@
+
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #fff5f9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff66b2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #ffd6e8;
+  color: #555;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 102, 178, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #ff3399;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ff99cc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline-color: #ff66b2;
+}
+
+button {
+  padding: 10px 16px;
+  margin-right: 8px;
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e055a2;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 14px;
+  border-bottom: 1px solid #f4c2d7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #444;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.book-info {
+  flex-grow: 1;
+  margin-right: 12px;
+}
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
