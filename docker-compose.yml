@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    image: hristina123/backend-booky
+    container_name: backend
+    build: ./demo3
+    depends_on:
+      - mongo
+    ports:
+      - "8080:8080"
+    environment:
+        SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/booky
+  frontend:
+    image: hristina123/frontend-booky
+    container_name: frontend
+    build: ./frontend2
+
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:
