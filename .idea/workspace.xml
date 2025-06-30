@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ddc87f-a6d7-4d85-8c23-0f6d5746601c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo3/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/backend-deplotment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/frontend-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/mongo-statefulset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/namespace.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo/Model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo/Model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/target/classes/com/example/demo/Model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/target/classes/com/example/demo/Model/Book.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2yhRGk05hHAHM2No3KTW8m7uRK5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +56,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750284724635</updated>
       <workItem from="1750284725729" duration="9059000" />
+      <workItem from="1751275400254" duration="1877000" />
     </task>
     <servers />
   </component>
