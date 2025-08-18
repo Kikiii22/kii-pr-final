@@ -11,7 +11,7 @@ services:
       - mongo-data:/data/db
 
   backend:
-    image: hristina123/backend-booky
+    image: hristina123/backend-booky:latest
     container_name: backend
     build: ./demo3
     depends_on:
@@ -21,7 +21,7 @@ services:
     environment:
         SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/booky
   frontend:
-    image: hristina123/frontend-booky
+    image: hristina123/frontend-booky:latest
     container_name: frontend
     build: ./frontend2
 

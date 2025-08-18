@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: booky-config
+  namespace: booky
+data:
+  SPRING_DATA_MONGODB_URI: "mongodb://mongo.booky.svc.cluster.local:27017/booky"

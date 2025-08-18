@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ddc87f-a6d7-4d85-8c23-0f6d5746601c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kubernetes/backend-deplotment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/frontend-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/mongo-statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/namespace.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/backend-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/frontend-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/service-mongo.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/src/main/java/com/example/demo/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/backend-deplotment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/backend-deplotment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/frontend-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/frontend-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/mongo-statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/mongo-statefulset.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="minikube" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,9 +57,12 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/booky/frontend2/src",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/booky",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +93,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,6 +111,10 @@
       <updated>1750284724635</updated>
       <workItem from="1750284725729" duration="9059000" />
       <workItem from="1751275400254" duration="1877000" />
+      <workItem from="1751287525724" duration="21649000" />
+      <workItem from="1751358290938" duration="2119000" />
+      <workItem from="1751468473106" duration="234000" />
+      <workItem from="1753795117595" duration="161000" />
     </task>
     <servers />
   </component>
