@@ -9,4 +9,5 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
-  type: ClusterIP
+      nodePort: 32000   # you can pick between 30000–32767
+  type: NodePort
